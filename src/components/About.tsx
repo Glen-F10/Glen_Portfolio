@@ -64,7 +64,7 @@ const About = () => {
               <p className="text-lg text-foreground leading-relaxed">
                 Originally from <span className="text-text-bright font-medium">India</span>, 
                 now pursuing my Master's in Data Science in{' '}
-                <span className="text-text-bright font-medium">Berlin, Germany</span>. 
+                <span className="text-text-bright font-medium">Potsdam, Germany</span>. 
                 I specialize in bridging the gap between theoretical mathematics and 
                 real-world application.
               </p>
