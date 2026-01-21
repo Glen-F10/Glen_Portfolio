@@ -130,24 +130,24 @@ const ProjectCard = ({ title, description, tags, icon, index }: ProjectCardProps
 const Projects = () => {
   const projects = [
     {
-      title: 'YOLOv8 Drone Detection',
+      title: 'Mart Chat App',
       description:
-        'Real-time aerial threat detection system optimized for edge deployment. Achieves 45+ FPS on embedded hardware while maintaining high accuracy in adverse conditions.',
-      tags: ['YOLOv8', 'PyTorch', 'ONNX', 'Edge AI'],
+        'A web based app used to improve operarional eficiency with an inbuilt tools, similar to MS Teams',
+      tags: ['Django','Flask', 'Jinja', 'Bootstrap', 'RDBMS', 'Firebase'],
       icon: <Radar className="h-6 w-6 text-primary" />,
     },
     {
-      title: 'Satellite Imagery Segmentation',
+      title: 'Data operations on UN COMTRADE Data',
       description:
-        'Advanced terrain mapping solution using U-Net architecture and GeoPandas for geospatial analysis. Processes multi-spectral imagery for defense applications.',
-      tags: ['U-Net', 'GeoPandas', 'TensorFlow', 'GIS'],
+        'Working with the UN Commercial trade data and creating a report, also worked with cleaning the data and calculating mising values.',
+      tags: ['Data Cleaning', 'Data Operations'],
       icon: <Satellite className="h-6 w-6 text-primary" />,
     },
     {
       title: 'Turbine Predictive Maintenance',
       description:
         'Time-series forecasting system for rotary machinery health monitoring. Reduces unplanned downtime by 40% through early anomaly detection.',
-      tags: ['LSTM', 'Time Series', 'Scikit-learn', 'Docker'],
+      tags: ['LSTM', 'Time Series', 'Scikit-learn', 'Random Forest Regression'],
       icon: <Settings className="h-6 w-6 text-primary" />,
     },
   ];
