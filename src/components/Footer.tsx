@@ -3,9 +3,9 @@ import { Github, Linkedin, Mail, ArrowUpRight } from 'lucide-react';
 
 const Footer = () => {
   const links = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:glen@example.com', label: 'Email' },
+    { icon: Github, href: 'https://github.com/Glen-F10', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/glen-furtado-294b30385/', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:glenfurtado1010@gmail.com', label: 'Email' },
   ];
 
   return (
@@ -46,7 +46,7 @@ const Footer = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            Interested in defense tech, aerospace AI, or autonomous systems?
+            Interested in computer vision projects or defense related projects
             Let's build something extraordinary together.
           </motion.p>
 
