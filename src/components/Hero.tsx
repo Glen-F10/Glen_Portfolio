@@ -76,8 +76,7 @@ const Hero = () => {
           className="text-base md:text-lg text-text-muted max-w-2xl mx-auto mb-10 leading-relaxed"
         >
           Building robust, scalable AI solutions for{' '}
-          <span className="text-foreground font-medium">Defense</span>,{' '}
-          <span className="text-foreground font-medium">Aerospace</span>, and{' '}
+          <span className="text-foreground font-medium">Computer vision systems</span>, and{' '}
           <span className="text-foreground font-medium">Autonomous Systems</span>.
         </motion.p>
 
@@ -94,10 +93,12 @@ const Hero = () => {
             View Projects
             <ArrowDown className="ml-2 h-4 w-4 transition-transform group-hover:translate-y-1" />
           </Button>
+          <a href="https://drive.google.com/file/d/1loes0UGhL2LyQzqqJ6LsOZl8GyU_wOBk/view?usp=sharing">
           <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10">
             <Download className="mr-2 h-4 w-4" />
             Download CV
           </Button>
+          </a>
         </motion.div>
 
         {/* Scroll indicator */}

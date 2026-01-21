@@ -26,7 +26,7 @@ const About = () => {
   const badges = [
     {
       icon: Globe,
-      title: 'German C2 Proficiency',
+      title: 'German A2 Proficiency',
       subtitle: 'Target certification',
     },
     {
@@ -64,15 +64,15 @@ const About = () => {
               <p className="text-lg text-foreground leading-relaxed">
                 Originally from <span className="text-text-bright font-medium">India</span>, 
                 now pursuing my Master's in Data Science in{' '}
-                <span className="text-text-bright font-medium">Hello, Germany</span>. 
-                I specialize in bridging the gap between theoretical mathematics and 
-                real-world application.
+                <span className="text-text-bright font-medium">Berlin, Germany</span> at University of Europe for applied Sciences. 
+                I specialize in bridging the gap between raw data and 
+                real-world application using Data Science and Machine Learning.
               </p>
               
               <p className="text-foreground leading-relaxed">
                 My focus lies in developing{' '}
-                <span className="text-primary font-mono text-sm">computer vision</span> and{' '}
-                <span className="text-primary font-mono text-sm">deep learning</span> solutions 
+                <span className="text-primary font-mono text-sm">computer vision</span> , {' '}
+                <span className="text-primary font-mono text-sm">deep learning</span> and {' '}<span className="text-primary font-mono text-sm">Data Science</span>solutions 
                 that meet the rigorous standards of the defense and aerospace industries. 
                 I'm passionate about creating AI systems that are not just accurate, 
                 but also robust, interpretable, and production-ready.
