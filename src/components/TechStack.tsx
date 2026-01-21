@@ -25,15 +25,15 @@ const TechStack = () => {
   const categories = [
     {
       title: 'Core',
-      items: ['Python', 'Machine Learning', 'Deep Learning', 'Computer Vision'],
+      items: ['Python', 'Machine Learning', 'Computer Vision', 'Data Science'],
     },
     {
       title: 'Frameworks & Tools',
-      items: ['PyTorch', 'TensorFlow', 'OpenCV', 'Docker', 'AWS'],
+      items: ['TensorFlow', 'OpenCV', 'Sickit learn', 'Flask nd Django'],
     },
     {
       title: 'Languages',
-      items: ['English (Fluent)', 'German (B2 → C1)', 'Hindi (Native)'],
+      items: ['English (Fluent)', 'German (A2)', 'Hindi (Native)'],
     },
   ];
 
@@ -99,10 +99,10 @@ const TechStack = () => {
             </h3>
             <div className="grid md:grid-cols-2 gap-6">
               {[
-                { skill: 'Computer Vision & Image Processing', level: 95 },
-                { skill: 'Deep Learning & Neural Networks', level: 90 },
-                { skill: 'MLOps & Model Deployment', level: 80 },
-                { skill: 'Data Engineering & Pipelines', level: 75 },
+                { skill: 'Computer Vision & Image Processing', level: 70 },
+                { skill: 'Deep Learning & Neural Networks', level: 50 },
+                { skill: 'MLOps & Model Deployment', level: 50 },
+                { skill: 'Data Engineering & Pipelines', level: 60 },
               ].map((item) => (
                 <motion.div
                   key={item.skill}

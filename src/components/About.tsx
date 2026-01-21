@@ -72,7 +72,7 @@ const About = () => {
               <p className="text-foreground leading-relaxed">
                 My focus lies in developing{' '}
                 <span className="text-primary font-mono text-sm">computer vision</span> , {' '}
-                <span className="text-primary font-mono text-sm">deep learning</span> and {' '}<span className="text-primary font-mono text-sm">Data Science</span>solutions 
+                <span className="text-primary font-mono text-sm">deep learning</span> and {' '}<span className="text-primary font-mono text-sm">Data Science</span> solutions 
                 that meet the rigorous standards of the defense and aerospace industries. 
                 I'm passionate about creating AI systems that are not just accurate, 
                 but also robust, interpretable, and production-ready.

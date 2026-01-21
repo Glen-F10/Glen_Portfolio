@@ -67,7 +67,7 @@ const Hero = () => {
           className="text-xl md:text-2xl lg:text-3xl font-medium text-foreground mb-4"
         >
           Master's Candidate in Data Science |{' '}
-          <span className="gradient-text">Computer Vision & AI Specialist</span>
+          <span className="gradient-text">Computer Vision & AI Enthusiast</span>
         </motion.h2>
 
         {/* Sub-headline */}
